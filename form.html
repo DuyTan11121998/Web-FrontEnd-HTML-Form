@@ -1,0 +1,165 @@
+<html>
+    <head>
+        <title>Trang Sign In</title>
+    </head>
+    <body ">
+        <form 
+            action="abc.php" 
+            method="POST" 
+            style =
+                "margin: 10px auto;
+                width: 500px;
+                background-color: #28d1c133;
+                border-radius: 10px;
+                padding-left: 60px;
+                padding-right: 30px;
+                margin-bottom: 30px;"
+        >
+            <h1 style="text-align: center;">Sign Up</h1>
+            <span
+                style="
+                    display: inline-block;
+                    background: #ffe082ed;
+                    color: green;
+                    padding: 8px 15px 8px 14px;
+                    border-radius: 100%;
+                    font-size: 20px;
+                    font-weight: bold;">
+                1
+            </span> 
+            <span
+                style="
+                    font-size: 15px;
+                    font-weight: bold;
+                ">
+                Your basic information
+            </span>
+            <br>
+            <span>Name</span>
+            <br>
+            <input 
+                type="text" 
+                name="username" 
+                placeholder="Input your username" 
+                style=
+                    "margin-top: 10px;
+                    margin-bottom: 20px;
+                    border-radius: 15px;
+                    width: 100%;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    padding-bottom: 10px;">
+            <br>
+            <span>Email</span>
+            <br>
+            <input 
+                type="text" 
+                name="email" 
+                placeholder="Input your Email " 
+                style=
+                    "margin-top: 10px;
+                    margin-bottom: 20px;
+                    border-radius: 15px;
+                    width: 100%;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    padding-bottom: 10px;">
+            <br>
+            <span>Password</span>
+            <br>
+            <input 
+                type="password" 
+                name="password" 
+                placeholder="Input your password" 
+                style=
+                    "margin-top: 10px;
+                    margin-bottom: 20px;
+                    border-radius: 15px;
+                    width: 100%;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    padding-bottom: 10px;">
+            <br>
+            Age
+            <br>
+            <input type="radio" value="uder13" name="age_user">Under 13</input>
+            <br>
+            <input type="radio" value="Over13" name="age_user">13 or older</input>
+            <br>
+            <span
+                style="
+                    display: inline-block;
+                    background: #ffe082ed;
+                    color: green;
+                    padding: 8px 15px 8px 14px;
+                    border-radius: 100%;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-top: 25px;">
+                2
+            </span> 
+            <span
+                style="
+                    font-size: 15px;
+                    font-weight: bold;
+                ">
+                Your profile
+            </span>
+            <br> <br>
+            <span>Biography</span>
+            <br>
+            <textarea 
+                name="textarea" 
+                cols="60" 
+                rows="5"
+                placeholder="Input your bio here" 
+                style="
+                margin-top: 15px;
+                border-radius: 10px;"
+            ></textarea>
+            <br> <br>
+            <span style="margin-top: 25px;">Job Role :</span>
+            <select name="job" id="job">
+                <optgroup label="WEB">
+                    <option value="1">PHP_Developer</option>
+                    <option value="2">Python_Developer</option>
+                    <option value="3">NodeRED_Developer</option>
+                    <option value="4">Design_Web</option>
+                    <option value="5">WordPress_Developer</option>
+                </optgroup>
+                <optgroup label="MOBILE">
+                    <option value="1.1">Android_Developer</option>
+                    <option value="2.2">IOS_Developer</option>
+                    <option value="3.3">NETWORK_Developer</option>
+                    <option value="4.4">Designe_Mobile</option>
+                </optgroup>
+                <optgroup label="OTHER">
+                </optgroup>
+            </select>
+            <br> <br>
+            <span>Inerests</span>
+            <br>
+            <input type="checkbox" value="11" name="">Development</input>
+            <br>
+            <input type="checkbox" value="11" name="">Design</input>
+            <br>
+            <input type="checkbox" value="11" name="">Other</input>
+            <br> <br>
+            <input 
+                type="submit" 
+                value="Sign Up Now"
+                style="
+                    margin-left: 30%;
+                    margin-right: 30%;
+                    width: 40%;
+                    color: white;
+                    background-color: #fce18a;
+                    padding: 20px;
+                    border-radius: 32px;
+                    font-size: 20px;
+                    font-weight: bold;"
+            >
+        </form>
+       
+    </body>
+</html>
